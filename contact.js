@@ -11,11 +11,11 @@ formulaire.addEventListener('submit', (e) => {
   e.preventDefault(); // Empêche le rechargement de la page
 
   // Récupérez les valeurs des champs
-  const nomValue = nom.value;
-  const prenomValue = prenom.value;
-  const emailValue = email.value;
-  const objetValue = objet.value;
-  const messageValue = message.value;
+  const nomValue = nom?.value;
+  const prenomValue = prenom?.value;
+  const emailValue = email?.value;
+  const objetValue = objet?.value;
+  const messageValue = message?.value;
 
   // Envoyez les données à MailJet
   fetch('https://api.mailjet.com/v3.1/send', {
@@ -44,7 +44,7 @@ formulaire.addEventListener('submit', (e) => {
     }),
   })
     .then((response) => {
-      // Gérez la réponse de MailJet
+     console.log('test') // Gérez la réponse de MailJet
       if (response.ok) {
         // Le message a été envoyé avec succès
         alert('Votre message a été envoyé avec succès.');
