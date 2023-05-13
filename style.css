@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+
+ body{
+    margin: 0px;
+    background-image: url(./pictures/fond-bleu-degrade-luxe-abstrait-bleu-fonce-lisse-vignette-noire-studio-banner.jpg);
+    background-size: 190%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+.background-vague{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding: 17px;
+    text-decoration: 3.5px underline #54a7c8;
+}
+
+.link{
+    font-size: 21px;
+    margin: 20px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    color: #54a7c8 !important;
+    font-size: 50px;
+}
+
+h2{
+    color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.second-title{
+    margin: 0px 200px;
+    text-align: center;
+}
+
+.second-title>h2, .second-title>p, .about-me>p{
+    font-size: 23px;
+    word-spacing: 1px;
+}
+
+.about-me{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+/* .logo-langage{
+    margin: 80px;
+} */
+
+.logo-langage-first{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+
+.logo-langage-first{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-langage-second{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    width: 120px;
+}
+
+#php-logo{
+    height: 100px;
+}
+
+.formulary{
+    border-style: none;
+    border: 2px solid rgba(255, 255, 255, 0.325);
+    margin: 100px;
+    background-color: rgba(165, 165, 165, 0.100);
+}
+
+form>h3{
+    text-align: center;
+    color: white;
+    font-size: 27px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    background-color:  #54a7c854;
+    color: white;
+    border-style: none;
+    border: 2px solid rgba(255, 255, 255, 0.325);
+}
+
+::placeholder{
+    color: white;
+}
+
+.name-surname{
+    padding: 57px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-details{
+    padding: 57px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 850px;
+    height: 300px;
+    font-size: 18px;
+    padding: 20px;
+    background-color:  #54a7c854;
+    border-style: none;
+    border: 2px solid rgba(255, 255, 255, 0.325);
+}
+
+
+.bouton{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: none;
+    transition: 0.3s;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #54a7c854;
+    color: white;
+}
+
+html{scroll-behavior:smooth}
+
+footer{
+    padding: 30px;
+}
+footer>p{
+    text-align: center;
+}
+
+.mail_linkedin{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>.mail_linkedin>.linkedin>img{
+    width: 30px;
+    height: auto; 
+}
+
+footer>.mail_linkedin>.mail>img{
+    width: 30px;
+    height: auto; 
+}
+
