@@ -207,3 +207,140 @@ footer>.mail_linkedin>.mail>img{
     height: auto; 
 }
 
+@media screen and (max-width: 1320px) {
+    .link{
+        font-size: 19px !important;
+    }
+
+    h1{
+        font-size: 40px !important;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        padding: 25px;
+        /* font-size: 20px !important; */
+        word-spacing: 2px !important;
+    }
+
+    .second-title{
+        margin: 0 20px !important;
+    }
+
+    .about-me>p{
+        margin: 0 90px;
+    }
+
+    img{
+        max-width: 90px !important;
+    }
+
+    h3{
+        margin-top: 40px !important;
+        margin-bottom: 50px !important;
+        font-size: 23px !important;
+    }
+    
+    input{
+        max-width: 250px;
+        font-size: 16px !important;
+    }
+
+    .name-surname{
+     padding: 20px !important;   
+    }
+
+    .contact-details{
+        padding: 20px !important;
+    }
+
+    textarea{
+        margin: 50px !important;
+        max-width: 600px;
+        max-height: 400px !important;
+    }
+
+    .bouton{
+        padding-top: 0px !important;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+
+    .link{
+        font-size: 17px !important;
+    }
+
+    h1{
+        margin-top: 40px !important;
+        font-size: 27px !important;
+    }
+
+    h2{
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+        font-size: 16px !important;
+    }
+
+    p{
+        padding: 10px !important;
+        font-size: 16px !important;
+    }
+
+    img{
+        max-width: 70px !important;
+    }
+
+    .logo-langage-first{
+        margin: 15px;
+    }
+
+    .formulary{
+        margin: 40px 80px;
+    }
+
+    h3{
+        margin: 20px !important;
+        font-size: 18px !important;
+    }
+
+    input{
+        max-width: 200px !important;
+        font-size: 14px !important;
+    }
+
+    textarea{
+        margin: 35px !important;
+        max-width: 450px !important;
+        max-height: 180px !important;
+        font-size: 14px !important;
+    }
+
+    button{
+        max-width: 170px !important;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    h3{
+        margin: 30px 0 !important;
+    }
+
+    input{
+        max-width: 190px;
+        max-height: 40px;
+        font-size: 15px !important;
+    }
+
+    textarea{
+        max-height: 200px !important;
+        font-size: 15px !important;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+
+  }
