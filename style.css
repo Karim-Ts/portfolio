@@ -97,6 +97,10 @@ h2{
     width: 120px;
 }
 
+figcaption{
+    color: white;
+}
+
 /* #php-logo{
     height: 100px;
 } */
@@ -185,16 +189,20 @@ button:hover{
 
 html{scroll-behavior:smooth}
 
-footer{
-    padding: 30px;
-}
-footer>p{
-    text-align: center;
+.image_footer{
+    max-width: 40px;
 }
 
 .mail_linkedin{
     display: flex;
     justify-content: space-around;
+}
+
+/* footer{
+    padding: 30px;
+}
+footer>p{
+    text-align: center;
 }
 
 footer>.mail_linkedin>.linkedin>img{
@@ -205,7 +213,7 @@ footer>.mail_linkedin>.linkedin>img{
 footer>.mail_linkedin>.mail>img{
     width: 30px;
     height: auto; 
-}
+} */
 
 @media screen and (max-width: 1320px) {
     .link{
@@ -369,5 +377,88 @@ footer>.mail_linkedin>.mail>img{
 
     .bouton{
         padding: 10px !important;
+    }
+  }
+
+  @media screen and (max-width: 500px){
+
+    h2{
+        margin: 10px 20px !important;
+        font-size: 14px !important;
+    }
+
+    .second-title>p{ 
+        font-size: 12px !important;
+    }
+
+    .link{
+        font-size: 13px !important;
+        margin: 10px 15px;
+    }
+
+    .logo{
+        max-width: 50px !important;
+    }
+
+    .logo-langage-first, .logo-langage-second{
+        margin: 0 10px !important;
+    }
+
+    figcaption{
+        font-size: 12px !important;
+    }
+
+    .contact-details{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px !important;
+    }
+
+    .name-surname{
+        align-items: center;
+        padding: 0px !important;
+        flex-direction: column;
+    }
+
+    input{
+        font-size: 12px !important;
+        margin: 10px !important;
+        max-width: 140px !important;
+    }
+
+    textarea{
+        max-width: 150px !important;
+        max-height: 170px !important;
+        font-size: 12px !important;
+        padding: 10px;
+    }
+
+    .formulary{
+        margin: 20px auto !important;
+        width: 250px !important;
+    }
+
+    p{
+        font-size: 10px !important;
+    }
+
+    .image_footer{
+        width: 20px !important;
+    }
+
+    .mail_linkedin{
+        text-align: center;
+    }
+
+    .mail>figure>figcaption{
+        font-size: 10px !important;
+    }
+
+    .linkedin>figure>figcaption{
+        font-size: 10px !important;
+    }
+
+    footer{
+        margin: 20px !important;
     }
   }
