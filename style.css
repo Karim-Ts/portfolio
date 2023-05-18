@@ -350,6 +350,9 @@ footer>.mail_linkedin>.mail>img{
   }
 
   @media screen and (max-width: 650px) {
+
+    
+
     input{
         max-width: 120px !important;
         font-size: 14px !important;
@@ -381,6 +384,10 @@ footer>.mail_linkedin>.mail>img{
   }
 
   @media screen and (max-width: 500px){
+
+    h1{
+        font-size: 23px !important;
+    }
 
     h2{
         margin: 10px 20px !important;
